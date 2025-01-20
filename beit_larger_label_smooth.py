@@ -286,5 +286,5 @@ if __name__ == "__main__":
     labels = pd.read_csv ("//home/work/COOOL/faker_image/sample_submission.csv")
     img_dir = "/home/work/COOOL/faker_image/Test"
     preds = predict(labels, img_dir, model, '/home/work/COOOL/faker_image/beit-large-patch16-384', img_size=img_size, batch_size=batch_size, device='cuda', n_fold=n_fold)
-    labels['label'] = preds + 0.02
+    labels['label'] = preds 
     labels.to_csv("/home/work/COOOL/faker_image/predictions_smooth_label.csv", index=False)
