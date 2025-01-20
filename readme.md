@@ -54,4 +54,4 @@ predict funtion
 ```
 
 Data download
-[Link Text](https://www.kaggle.com/competitions/cidaut-ai-fake-scene-classification-2024/data)
+[Link](https://www.kaggle.com/competitions/cidaut-ai-fake-scene-classification-2024/data)
