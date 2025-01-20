@@ -25,5 +25,8 @@ Submissions are evaluated using AUC-ROC area under the ROC curve between the pre
 ### Submission File
 See in "Data" the sample_submission.csv
 
-this real image
+this is editada image
 ![Image](1.jpg)
+
+this is real image
+![Image](2.jpg)
