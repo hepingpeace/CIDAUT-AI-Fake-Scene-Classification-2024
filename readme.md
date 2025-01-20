@@ -31,7 +31,7 @@ this is editada image
 this is real image
 ![Image](3.jpg)
 
-Rethink
+## Rethink
 train funtion
 ```python
     transform = transforms.Compose([
@@ -45,8 +45,6 @@ train funtion
     ])
 ```
 predict funtion
-
-train funtion
 ```python
     transform = transforms.Compose([
         transforms.Resize(img_size),
