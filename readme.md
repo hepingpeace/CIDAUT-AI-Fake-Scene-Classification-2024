@@ -1,4 +1,4 @@
-## CIDAUT AI Fake Scene Classification 2024
+## CIDAUT AI Fake Scene Classification 2024 --kaggle  Acc 0.9317
 
 ### Overview
 
@@ -52,3 +52,6 @@ predict funtion
         transforms.Normalize(mean=[0.481, 0.457, 0.408], std=[0.268, 0.261, 0.275]) # need
     ])
 ```
+
+Data download
+[Link Text](https://www.kaggle.com/competitions/cidaut-ai-fake-scene-classification-2024/data)
