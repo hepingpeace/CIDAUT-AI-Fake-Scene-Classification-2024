@@ -30,3 +30,27 @@ this is editada image
 
 this is real image
 ![Image](3.jpg)
+
+Rethink
+train funtion
+```python
+    transform = transforms.Compose([
+        transforms.Resize(img_size),
+        transforms.ToTensor(),
+        transforms.GaussianBlur(7),
+        transforms.RandomRotation(degrees=15),
+        transforms.RandomHorizontalFlip(),
+        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
+        transforms.Normalize(mean=[0.481, 0.457, 0.408], std=[0.268, 0.261, 0.275])
+    ])
+```
+predict funtion
+
+train funtion
+```python
+    transform = transforms.Compose([
+        transforms.Resize(img_size),
+        transforms.ToTensor()
+        transforms.Normalize(mean=[0.481, 0.457, 0.408], std=[0.268, 0.261, 0.275]) # need
+    ])
+```
